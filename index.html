@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicklist - Lista de Compras</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">quicklist</div>
+    </header>
+
+    <main class="app-container">
+        
+        <a href="#" class="back-link">← Voltar</a>
+
+        <h2>Compras da semana</h2>
+
+        <form id="add-form">
+            <input type="text" id="item-input" placeholder="Adicione um novo item">
+            <button type="submit" id="add-button">Adicionar item</button>
+        </form>
+
+        <ul id="item-list">
+           <!-- <li class="list-item" id="item-1">
+                <label>Pão de forma</label>
+                <button class="delete-button">🗑️</button>
+            </li>-->
+            
+
+        </ul>
+    </main>
+   
+    <div id="notification" class="toast hidden">
+        <!-- <span>ℹ️</span>
+        <p>O item foi removido da lista.</p>
+        <button id="close-toast">X</button>-->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
